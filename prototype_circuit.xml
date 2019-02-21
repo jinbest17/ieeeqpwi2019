@@ -1,0 +1,1022 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<netlist date="Thu Feb 21 02:51:03 2019" sketch="Untitled Sketch.fzz">
+ <net>
+  <connector id="connector53" name="D10 PWM/SS">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector68" name="DIG_10">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector28" name="DIG_10">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector54" name="D11 PWM/MOSI">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector13" name="MOSI">
+   <part id="67500" label="Receiver" title="NRF24L01+ Breakout Board"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector56" name="D13/SCK">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector12" name="SCK">
+   <part id="67500" label="Receiver" title="NRF24L01+ Breakout Board"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector55" name="D12/MISO">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector14" name="MISO">
+   <part id="67500" label="Receiver" title="NRF24L01+ Breakout Board"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector57" name="GND">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector89" name="GND">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector88" name="GND">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector8" name="GND">
+   <part id="67500" label="Receiver" title="NRF24L01+ Breakout Board"/>
+  </connector>
+  <connector id="connector1" name="GND">
+   <part id="60490" label="Gyro" title="InvenSense MPU6050"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector68" name="D7">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector10" name="CE">
+   <part id="67500" label="Receiver" title="NRF24L01+ Breakout Board"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11" name="CS">
+   <part id="67500" label="Receiver" title="NRF24L01+ Breakout Board"/>
+  </connector>
+  <connector id="connector51" name="D8">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9" name="VCC">
+   <part id="67500" label="Receiver" title="NRF24L01+ Breakout Board"/>
+  </connector>
+  <connector id="connector86" name="3V3">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector0" name="VCC">
+   <part id="60490" label="Gyro" title="InvenSense MPU6050"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="SCL">
+   <part id="60490" label="Gyro" title="InvenSense MPU6050"/>
+  </connector>
+  <connector id="connector5" name="A5/SCL">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector60" name="A5/SCL">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="SDA">
+   <part id="60490" label="Gyro" title="InvenSense MPU6050"/>
+  </connector>
+  <connector id="connector4" name="A4/SDA">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+  <connector id="connector59" name="A4/SDA">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="XDA">
+   <part id="60490" label="Gyro" title="InvenSense MPU6050"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="XCL">
+   <part id="60490" label="Gyro" title="InvenSense MPU6050"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6" name="AD0">
+   <part id="60490" label="Gyro" title="InvenSense MPU6050"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7" name="INT">
+   <part id="60490" label="Gyro" title="InvenSense MPU6050"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector129" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector140" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector72" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector134" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector136" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector135" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector139" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector133" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector141" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector131" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector73" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector130" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector137" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector132" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector32" name="GND">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector45" name="A_IN_3">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector59" name="A_IN_3">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector205" name="N$74">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector175" name="N$44">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector40" name="DIG_6">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector54" name="DIG_6">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector189" name="N$58">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector34" name="DIG_0">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector48" name="DIG_0">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector245" name="N$114">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector109" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector102" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector110" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector112" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector106" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector113" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector107" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector111" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector71" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector105" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector108" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector103" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector104" name="+5V">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector241" name="N$110">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector200" name="N$69">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector173" name="N$42">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector145" name="N$14">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector169" name="N$38">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector43" name="A_IN_1">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector57" name="A_IN_1">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector199" name="N$68">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector146" name="N$15">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector216" name="N$85">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector56" name="A_IN_0">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector42" name="A_IN_0">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector46" name="A_IN_4">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector60" name="A_IN_4">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector157" name="N$26">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector193" name="N$62">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector36" name="DIG_2">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector50" name="DIG_2">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector179" name="N$48">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector224" name="N$93">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector70" name="3V3">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector182" name="N$51">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector190" name="N$59">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector239" name="N$108">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector181" name="N$50">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector44" name="A_IN_2">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector58" name="A_IN_2">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector196" name="N$65">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector152" name="N$21">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector154" name="N$23">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector27" name="DIG_9">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector187" name="N$56">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector186" name="N$55">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector203" name="N$72">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector144" name="N$13">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector209" name="N$78">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector248" name="N$118">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector153" name="N$22">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector230" name="N$99">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector148" name="N$17">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector206" name="N$75">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector30" name="DIG_12">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector65" name="DIG_12">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector168" name="N$37">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector159" name="N$28">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector41" name="DIG_7">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector55" name="DIG_7">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector143" name="N$12">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector237" name="N$106">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector35" name="DIG_1">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector49" name="DIG_1">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector147" name="N$16">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector233" name="N$102">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector202" name="N$71">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector194" name="N$63">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector191" name="N$60">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector246" name="N$116">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector201" name="N$70">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector37" name="DIG_3">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector51" name="DIG_3">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector236" name="N$105">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector192" name="N$61">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector204" name="N$73">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector228" name="N$97">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector66" name="DIG_11">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector29" name="DIG_11">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector197" name="N$66">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector176" name="N$45">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector142" name="N$2">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector172" name="N$41">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector240" name="N$109">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector163" name="N$32">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector231" name="N$100">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector26" name="DIG_8">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector62" name="DIG_8">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector149" name="N$18">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector217" name="N$86">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector211" name="N$80">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector229" name="N$98">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector183" name="N$52">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector156" name="N$25">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector207" name="N$76">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector165" name="N$34">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector226" name="N$95">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector33" name="AREF">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector47" name="A_IN_5">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector61" name="A_IN_5">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector218" name="N$87">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector174" name="N$43">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector150" name="N$19">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector185" name="N$54">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector171" name="N$40">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector214" name="N$83">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector249" name="N$119">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector166" name="N$35">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector160" name="N$29">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector225" name="N$94">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector223" name="N$92">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector177" name="N$46">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector53" name="DIG_5">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector39" name="DIG_5">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector69" name="RESET">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector227" name="N$96">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector235" name="N$104">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector162" name="N$31">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector220" name="N$89">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector67" name="DIG_13">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector31" name="DIG_13">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector138" name="+3V3">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector213" name="N$82">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector151" name="N$20">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector208" name="N$77">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector244" name="N$113">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector167" name="N$36">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector184" name="N$53">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector242" name="N$111">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector164" name="N$33">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector188" name="N$57">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector243" name="N$112">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector195" name="N$64">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector221" name="N$90">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector234" name="N$103">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector170" name="N$39">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector222" name="N$91">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector215" name="N$84">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector74" name="VIN">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector178" name="N$47">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector38" name="DIG_4">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+  <connector id="connector52" name="DIG_4">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector210" name="N$79">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector158" name="N$27">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector232" name="N$101">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector247" name="N$117">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector219" name="N$88">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector198" name="N$67">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector180" name="N$49">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector238" name="N$107">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector155" name="N$24">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector212" name="N$81">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector161" name="N$30">
+   <part id="70800" label="SD Card Shield" title="Memoire 1.0 - SD card log shield"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15" name="IRQ">
+   <part id="67500" label="Receiver" title="NRF24L01+ Breakout Board"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector65" name="D4">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector67" name="D6 PWM">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="A2">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector52" name="D9 PWM">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector87" name="5V">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="A0">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector90" name="VIN">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector62" name="D1/TX">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="A3">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector64" name="D3 PWM">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="A1">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector63" name="D2">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector61" name="D0/RX">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector85" name="RESET">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector58" name="AREF">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector84" name="ioref">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector91" name="N/C">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector66" name="D5 PWM">
+   <part id="58150" label="Part1" title="Arduino Uno (Rev3)"/>
+  </connector>
+ </net>
+</netlist>
