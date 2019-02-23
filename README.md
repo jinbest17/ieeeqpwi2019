@@ -2,14 +2,32 @@
 
 This repo currently has the example code for all the parts
 we will use in our project for reference purposes.
-TODO: Still working on master code.
+
+************************************************************
+Master_Logic.ino
+*************************************************************
+Integrate MPU6050 based angle meter code with buzzer.
+
+The program process the raw gyro and accelerometer data from MPU6050 with a 
+complementary filter and turn on the buzzer whenever the device tilts to a
+certain angle along the z-axis.
+
+Problems: 
+1. The current complementary filter only measures tilt along z-axis accurately.
+
+TODO: 
+1. Implement communication & data logging functionality. 
+2. Get rid of excess code, modulize & documentation.
+3. Experiment with other complementary filters & Research more into Kalman filter.
+
 
 ************************************************************
 MPU6050_Example.ino
 ************************************************************
-Example code that calculates realtime angle with MPU6050 
-The example code demonstrates every function of MPU6050 and prints out the data
-onto screen. 
+Example code that calculates realtime angle (unfiltered) with MPU6050 
+
+The example code demonstrates the functionalities of MPU6050 and 
+prints out it raw data output onto screen. 
 
 From Lesson 16 GY-521 Module & MPU-6050 on Youtube
 Video Link: https://www.youtube.com/watch?v=y5X2zwbO6e4&t=4s
