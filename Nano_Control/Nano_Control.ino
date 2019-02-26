@@ -10,9 +10,19 @@
 // 
 
 #include <Wire.h>
+#include <SPI.h>
+#include "RF24.h"
 
-
-
+/****************** User Config ***************************/
+/***      Set this radio as radio number 0 or 1         ***/
+bool radioNumber = 1;
+/* Hardware configuration: Set up nRF24L01 radio on SPI bus plus pins 7 & 8 */
+RF24 radio(7,8);
+/**********************************************************/
+byte addresses[][6] = {"1Node","2Node"};
+// Used to control whether this node is sending or receiving
+bool role = 1;
+bool data = 0;
 
 #define MPU6050_ACCEL_XOUT_H       0x3B   // R  
 
@@ -250,6 +260,23 @@ void setup()
   //Initialize the angles
   calibrate_sensors();  
   set_last_read_angle_data(millis(), 0, 0, 0, 0, 0, 0);
+
+    radio.begin();
+  // Set the PA Level low to prevent power supply related issues since this is a
+ // getting_started sketch, and the likelihood of close proximity of the devices. RF24_PA_MAX is default.
+  radio.setPALevel(RF24_PA_LOW);
+  
+  // Open a writing and reading pipe on each radio, with opposite addresses
+  if(radioNumber){
+    radio.openWritingPipe(addresses[1]);
+    radio.openReadingPipe(1,addresses[0]);
+  }else{
+    radio.openWritingPipe(addresses[0]);
+    radio.openReadingPipe(1,addresses[1]);
+  }
+  
+  // Start the radio listening for data
+  radio.startListening();
 }
 
 
@@ -384,9 +411,9 @@ void loop()
     }
   } else {
     if((angle_y < 0 && angle_y <-20) || (angle_y > 20) ){
-      tone(5, 100);
+      report_to_main(1);
     }else {
-      noTone(5);
+      report_to_main(0);
       count = 0; 
     }
   }
@@ -395,7 +422,15 @@ void loop()
   // Delay so we don't swamp the serial port
   delay(5);
 }
-
+int report_to_main(bool data) {
+     radio.stopListening();                                    // First, stop listening so we can talk.
+    Serial.println(F("Now sending"));
+    unsigned long start_time = micros();                             // Take the time, and send it.  This will block until complete
+     if (!radio.write( &data, sizeof(bool) )){
+       Serial.println(F("failed"));
+     }     
+    radio.startListening();                                    // Now, continue listening
+}
 
 // --------------------------------------------------------
 // MPU6050_read
