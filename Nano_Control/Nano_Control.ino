@@ -22,7 +22,6 @@ RF24 radio(7,8);
 byte addresses[][6] = {"1Node","2Node"};
 // Used to control whether this node is sending or receiving
 bool role = 1;
-bool data = 0;
 
 #define MPU6050_ACCEL_XOUT_H       0x3B   // R  
 
@@ -384,7 +383,7 @@ void loop()
   set_last_read_angle_data(t_now, angle_x, angle_y, angle_z, unfiltered_gyro_angle_x, unfiltered_gyro_angle_y, unfiltered_gyro_angle_z);
   
   // Send the data to the serial port
-  Serial.print(F("DEL:"));              //Delta T
+  /*Serial.print(F("DEL:"));              //Delta T
   Serial.print(dt, DEC);
   Serial.print(F("#ACC:"));              //Accelerometer angle
   Serial.print(accel_angle_x, 2);
@@ -397,7 +396,7 @@ void loop()
   Serial.print(F(","));
   Serial.print(unfiltered_gyro_angle_y, 2);
   Serial.print(F(","));
-  Serial.print(unfiltered_gyro_angle_z, 2);
+  Serial.print(unfiltered_gyro_angle_z, 2);*/
   Serial.print(F("#FIL:"));             //Filtered angle
   Serial.print(angle_x, 2);
   Serial.print(F(","));
@@ -413,7 +412,8 @@ void loop()
     if((angle_y < 0 && angle_y <-20) || (angle_y > 20) ){
       report_to_main(1);
     }else {
-      report_to_main(0);
+      for(int i =1; i<10;i++)
+        report_to_main(0);
       count = 0; 
     }
   }

@@ -24,7 +24,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println(F("RF24/examples/GettingStarted"));
   Serial.println(F("*** PRESS 'T' to begin transmitting to the other node"));
-  
+  pinMode(4, OUTPUT);
   radio.begin();
 
   // Set the PA Level low to prevent power supply related issues since this is a
@@ -80,13 +80,13 @@ if (role == 1)  {
         unsigned long end_time = micros();
         
         // Spew it
-        Serial.print(F("Sent "));
-        Serial.print(start_time);
-        Serial.print(F(", Got response "));
+        //Serial.print(F("Sent "));
+        //Serial.print(start_time);
+        //Serial.print(F(", Got response "));
         Serial.print(got_time);
-        Serial.print(F(", Round-trip delay "));
-        Serial.print(end_time-start_time);
-        Serial.println(F(" microseconds"));
+        //Serial.print(F(", Round-trip delay "));
+        //Serial.print(end_time-start_time);
+        //Serial.println(F(" microseconds"));
     }
 
     // Try again 1s later
@@ -112,6 +112,12 @@ if (role == 1)  {
       radio.startListening();                                       // Now, resume listening so we catch the next packets.     
       Serial.print(F("Sent response "));
       Serial.println(got_time);  
+
+      if(got_time == 1) {
+        tone(4, 1000);
+      } else {
+        noTone(4);
+      }
    }
  }
 
